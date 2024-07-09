@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+section {
+    position: relative;
+    width: 100;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url(person-traveling-enjoying-their-vacation.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header {
+      width: 100%;
+      min-width: min-content;
+      background-color: rgba(0, 0, 0, 0.596);
+      display: flex;
+      
+}
+.tag {
+    font-size: 50px;
+    min-width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 252, 246);
+    margin-right: 190px;
+    padding: 8px;
+    padding-left: 20px;
+    font-weight: 900;
+    font-style: italic;
+}
+.navigation {
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.navigation a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    border-radius: 5px;
+    position: relative;
+    right: -30px;
+}
+.navigation a:hover {
+    background-color: rgb(27, 139, 167);
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+.signin {
+    background-color: rgb(42, 15, 104);
+    padding: 12px;
+}
+.content {
+    max-width: 500px;
+    margin: 100px 20px;
+    background-color: rgba(51, 59, 65, 0.582);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-top: 80px;
+    padding-right: 20px;
+}
+.info {
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+}
+.more-info {
+    color: rgb(255, 255, 255);
+    background: rgb(89, 100, 192);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+
+}
+span {
+    font-weight:800;
+    font-style: italic;
+    color: aqua;
+}
+.more-info:hover {
+    background-color: rgba(12, 90, 90, 0.466);
+}
+.navigation input[type=text] {
+    margin-right: 5px;
+    padding: 5px;
+    margin-left: -210px;
+    border-radius: 5px;
+}
+.second {
+    font-family:'A Narrow Bold', sans-serif;
+    font-size: 60px;
+    padding-left: 40px;
+    padding-top: 15px;
+    background-color: rgb(14, 13, 12);
+    border-radius: 5px;
+    margin-right: 2px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.munnar {
+    background-image: url(pexels-nandhukumar-13691355.jpg);
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    justify-content: center;
+}
+.munn {
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-left: 480px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+.go {
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-left: 580px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+.mys {
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-left: 500px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+.man {
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-left: 500px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+.goa {
+    background-image: url(pexels-jay-cp-1187623797-22041232.jpg);
+    background-position: center;
+    background-size: cover;
+}
+button {
+    width: 200px;
+    padding: 20px;
+    margin-left: 1110px;
+    margin-top: 230px;
+    letter-spacing: 1px;
+    background-color: rgb(90, 90, 145);
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+button:hover {
+    background-color: black;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.mysore {
+    background-image: url(pexels-tanmoy-pal-3640736-17666276.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.manali {
+    background-image: url(pexels-julia-volk-5205555.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.last {
+    background-image: url(brennan-burling-ay53qag90W8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.last h2 {
+    padding: 12px;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+.last p {
+    color: white;
+    margin-left: 30px;
+    font-size: 40px;
+    padding-bottom: 30px;
+    margin-right: 20px;
+}
+.hh {
+    padding-left: 156px;
+    font-size: 40px;
+}
+.media span{
+    color:rgb(39, 119, 165);
+    font-style: normal;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+.media {
+    padding-top: 40px;
+}
+.icons a{
+    color: aliceblue;
+}
+.media-icons {
+    font-size: 30px;
+    padding-left: 0px;
+    letter-spacing: 20px;
+    display: flex;
+    padding-right: 0px;
+    display: flex;
+    background-color: rgba(57, 117, 151, 0.507);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.media-icons a{
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-left: 20px;
+    justify-content: flex-start;
+    align-items: end;
+    transition: 0.3s;
+    transition-property: "transform";
+
+}
+.media-icons a:not(:last-child) {
+    margin-right: 60px;
+    margin-left: 30px;
+}
+.media-icons a:hover {
+    transform: scale(1.4);
+}
+.loc {
+    padding-top: 20px;
+}
